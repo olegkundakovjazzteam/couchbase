@@ -10,6 +10,6 @@ public class Main {
         Cluster cluster = CouchbaseCluster.create();
         Bucket defaultBucket = cluster.openBucket();
         Bucket beerSampleBucket = cluster.openBucket("beer-sample");
-        String r = "3";
+        String r = "4";
     }
 }
